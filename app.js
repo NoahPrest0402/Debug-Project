@@ -13,8 +13,7 @@ let total = 0;
 
 function printReciept(customer) {
   processed++;
-  console.log(customer);
-
+  console.log(`Customer: ${customer.name}`)
   const receipt = customer.quantity.map((item, index) => {
     return {
       Item: prices.names[index],
@@ -28,14 +27,14 @@ function printReciept(customer) {
   for(let index = 0; index < 4; index++){
     total += receipt[index].total;
   }
-
   console.table(receipt);
+  console.log(`Shipping: ${customer.shipping}`)
+  console.log(`Total: ${total}`)
   return receipt;
 }
 
 function main() {
   const receipt = customers.map((customer) => printReciept(customer));
-
   console.log(`orders processed: ${processed}`);
   console.log(`orders total: ${total}`);
 }
