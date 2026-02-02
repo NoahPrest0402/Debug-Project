@@ -1,0 +1,46 @@
+Your goal is to create a receipt table for the customers based off of the items they bought.
+
+
+The Shop is retailing each item for the following amounts: 
+        Burger: $20,
+        Meatloaf: $50,
+        mac-n-cheese: $30,
+        baked potato: $45
+
+It costs the following to procure each item: 
+        Burger: $10,
+        Meatloaf: $30.5,
+        mac-n-cheese: $12,
+        baked potato: $70
+
+
+The following customers made the following purchases: 
+Tony: 
+    Burger: x10 
+    Meatloaf: x2 
+    Processing: $0 
+
+Mathew:
+    mac-n-cheese: x3 
+    baked potato: x1 
+    Processing: $7.50 
+
+Mike: 
+    Burger: x5 
+    mac-n-cheese: x1 
+    Meatloaf: x1 
+    baked potato: x1 
+    Processing: $15.00 
+
+Klins: 
+    Burger: x2 
+    mac-n-cheese: x1 
+    Processing: $2.50 
+
+Create a data file that represents the information above, then write a program that will generate a report printing out the following after each record: 
+Customer Name 
+Item Purchased, Selling Price, Quantity, Item Cost to Procure, Total Item Price 
+Order total
+Shipping
+Total Orders Processed  
+Total Profit Processed

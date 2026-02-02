@@ -1,0 +1,5 @@
+Debug the entire program and make it give the proper output.
+There are multiple errors within the code, and the goal is to find them all.
+All functions that are inside the code are required, and you will lose points if you get rid of them
+
+the use of AI for this assignment is banned. This includes browser summaries, chatgpt, and AI based extensions.

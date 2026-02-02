@@ -1,0 +1,27 @@
+[
+  {
+    "prices": [20.0, 50.00, 30.00, 45.0],
+    "procure": [10.0, 30.50, 12.00, 70.0],
+    "names": ["Burger", "Meatloaf", "mac-n-cheese", "baked potato"]
+  },
+  {
+    "name": "Tony",
+    "quantity": [10, 2, 0, 0],
+    "shipping": 0
+  },
+  {
+    "name": "Mathew",
+    "quantity": [0, 0, 3, 1],
+    "shipping": 7.50
+  },
+  {
+    "name": "Mike",
+    "quantity": [5, 1, 1, 1],
+    "shipping": 15.00
+  },
+  {
+    "name": "Klins",
+    "quantity": [2, 0, 1, 0],
+    "shipping": 2.50
+  }
+]
